@@ -41,7 +41,7 @@ fun InfoPage() {
             },
             title = stringResource(R.string.feedback_title)
         ) {
-            uriHandler.openUri("https://forms.gle/mU7oiPbQvro5owWf9")
+            uriHandler.openUri("https://github.com/D3SOX/Better-Internet-Tiles-Libre/issues")
         }
 
         PreferenceEntry(
@@ -50,26 +50,7 @@ fun InfoPage() {
             },
             title = stringResource(R.string.github_title)
         ) {
-            uriHandler.openUri("https://github.com/CasperVerswijvelt/Better-Internet-Tiles")
-        }
-
-        PreferenceEntry(
-            icon = {
-                DrawableIcon(R.drawable.xda)
-            },
-            title = stringResource(R.string.xda_title)
-        ) {
-            uriHandler.openUri("https://forum.xda-developers.com/t/better-internet-tiles-bring-back-wi-fi-and-mobile-data-toggles-non-root.4373925/")
-        }
-
-        PreferenceEntry(
-            icon = {
-                DrawableIcon(R.drawable.baseline_translate_24)
-            },
-            title = stringResource(R.string.weblate),
-            subTitle = stringResource(R.string.help_translate)
-        ) {
-            uriHandler.openUri("https://hosted.weblate.org/projects/better-internet-tiles/translations/")
+            uriHandler.openUri("https://github.com/D3SOX/Better-Internet-Tiles-Libre")
         }
 
         PreferenceEntry(
@@ -80,16 +61,6 @@ fun InfoPage() {
             subTitle = stringResource(R.string.restart_app_summary)
         ) {
             ProcessPhoenix.triggerRebirth(context)
-        }
-
-        PreferenceEntry(
-            icon = {
-                DrawableIcon(R.drawable.donate)
-            },
-            title = stringResource(R.string.donate),
-            subTitle = stringResource(R.string.donate_summarry)
-        ) {
-            uriHandler.openUri("https://ko-fi.com/casperverswijvelt")
         }
 
         PreferenceEntry(
