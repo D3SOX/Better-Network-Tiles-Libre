@@ -10,21 +10,25 @@ You can use something like Obtainium to get updates
 
 ## About
 
-This application aims to create a unified internet quick-settings tile, which is actually useful (I'm looking at you, Android 12). Next to this, **separate Wi-Fi and mobile data tiles are also available** if you just want to go back to the behaviour of Android 11 or lower.
+This application aims to improve various network related quick-settings tiles.
 
-Tapping the new unified internet tile will simply toggle between Wi-Fi and mobile data, which is exactly what I want it to do most of the time. This reduces the amount of taps needed from 3 (tap tile, disable wifi, enable data) to just 1 quick tap. In situations where you still want more control, long pressing the tile will redirect you to the relevant settings page.
+It adds an alternative unified internet tile. Next to this, **separate Wi-Fi and mobile data tiles are also available** if you just want to go back to the behaviour of Android 11 or lower.
+
+And just in case your ROM doesn't support it there are tiles for NFC, Airplane mode and Bluetooth too.
+
+Tapping the new alternative internet tile will simply toggle between Wi-Fi and mobile data. This reduces the amount of taps needed from 3 (tap tile, disable wifi, enable data) to just 1 quick tap. In situations where you still want more control, long pressing the tile will redirect you to the relevant settings page.
 
 **This has been tested and confirmed working on Pixel devices running Android 12, 13 and 14, but other devices will probably work too.**
 
 ## Shell access required
 Shell access is required to enable/disable Wi-Fi and mobile data, as well as for reading the SSID of the current Wi-Fi network. This can be granted using regular root, or by using the Shizuku application. Shizuku can be started using either adb or wireless debugging (or root, but then you might as wel use direct root access instead). The Sui and Riru magisk modules can also be used as an alternative to the Shizuku application.
 
-**Beware that if you do use Shizuku without root, you will need to start the Shizuku server each time you reboot the device.** You can do this without a PC using the wireless debugging method, so it is not that big of an issue, but it is something to keep in mind.
+**Beware that if you do use Shizuku without root, you will need to start the Shizuku server each time you reboot the device.** You can do this without a PC using the wireless debugging method, which might be annoying if you reboot your phone often and is something to keep in mind.
 
 ## Features
 - An improved unified Internet tile where you can tap to toggle between Wi-Fi and mobile data (visually very similar to the stock Android 12 tile, but more functional)
 - Separate Wi-Fi and mobile data tiles if you just want to go back to behaviour before Android 12
-- Also adds back a NFC and bluetooth tile if your ROM somehow doesn't have it
+- Can also add a NFC, Airplane mode and Bluetooth tile if your ROM somehow doesn't have it
 - Ability to configure access to the tiles while the phone is locked
 
 ## How to install
