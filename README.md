@@ -25,7 +25,7 @@ Shell access is required to enable/disable Wi-Fi and mobile data, as well as for
 ## Features
 - An improved unified Internet tile where you can tap to toggle between Wi-Fi and mobile data (visually very similar to the stock Android 12 tile, but more functional)
 - Separate Wi-Fi and mobile data tiles if you just want to go back to behaviour before Android 12
-- NFC tile which was apparently also removed 🤷
+- Also adds back a NFC and bluetooth tile if your ROM somehow doesn't have it
 - Ability to configure access to the tiles while the phone is locked
 
 ## How to install
