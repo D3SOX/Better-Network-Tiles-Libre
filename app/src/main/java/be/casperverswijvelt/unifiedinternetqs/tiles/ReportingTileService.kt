@@ -7,7 +7,6 @@ import android.util.Log
 import be.casperverswijvelt.unifiedinternetqs.tilebehaviour.TileBehaviour
 import be.casperverswijvelt.unifiedinternetqs.tilebehaviour.TileState
 import be.casperverswijvelt.unifiedinternetqs.util.ExecutorServiceSingleton
-import be.casperverswijvelt.unifiedinternetqs.util.reportToAnalytics
 import be.casperverswijvelt.unifiedinternetqs.util.saveTileUsed
 
 abstract class ReportingTileService: TileService() {
@@ -25,7 +24,6 @@ abstract class ReportingTileService: TileService() {
 
         ExecutorServiceSingleton.getInstance().execute {
             saveTileUsed(this)
-            reportToAnalytics(this)
         }
 
         super.onCreate()

@@ -3,16 +3,12 @@ plugins {
     id "kotlin-android"
 }
 
-ext {
-    useGoogleGcm = true
-}
-
 android {
     compileSdkVersion 33
     buildToolsVersion "33.0.0"
 
     defaultConfig {
-        applicationId "be.casperverswijvelt.unifiedinternetqs"
+        applicationId "be.casperverswijvelt.unifiedinternetqs.libre"
         minSdkVersion 29
         targetSdkVersion 33
         versionCode 3000002
@@ -26,28 +22,8 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
         }
-        debug {
-            ext.enableCrashlytics = false
-        }
     }
     flavorDimensions "distribution"
-    productFlavors {
-        playstore {
-            dimension "distribution"
-            versionNameSuffix "-playstore"
-            ext.useGoogleGcm = true
-        }
-        github {
-            dimension "distribution"
-            versionNameSuffix "-github"
-            ext.useGoogleGcm = true
-        }
-        fdroid {
-            dimension "distribution"
-            versionNameSuffix "-fdroid"
-            ext.useGoogleGcm = false
-        }
-    }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
@@ -94,24 +70,10 @@ dependencies {
     def shizuku_version = "12.1.0"
     implementation "dev.rikka.shizuku:api:$shizuku_version"
     implementation "dev.rikka.shizuku:provider:$shizuku_version"
-
-    // Firebase Analytics
-    githubImplementation "com.google.firebase:firebase-crashlytics-ktx:18.4.0"
-    playstoreImplementation "com.google.firebase:firebase-crashlytics-ktx:18.4.0"
 }
 
 configurations {
     all {
         exclude group: "androidx.lifecycle", module: "lifecycle-viewmodel-ktx"
-    }
-}
-
-android.productFlavors.each { flavor ->
-    {
-        if (getGradle().getStartParameter().getTaskRequests().toString().toLowerCase().contains(flavor.name) && flavor.ext.useGoogleGcm) {
-            println("Building flavor with Google GCM [${flavor.name}] - applying plugin")
-            apply plugin: "com.google.gms.google-services"
-            apply plugin: "com.google.firebase.crashlytics"
-        }
     }
 }
