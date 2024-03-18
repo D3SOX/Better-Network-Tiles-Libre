@@ -1,11 +1,10 @@
-# Better Internet Tiles Libre
+# Better Network Tiles Libre
 
-This is a fork of the original Better Inter Tiles by @casperverswijvelt to remove every non-libre component and analytics
+This is a fork of the original Better Internet Tiles by @casperverswijvelt to remove every non-libre component and analytics
 
 <img alt="GitHub" src="https://img.shields.io/github/license/D3SOX/Better-Internet-Tiles-Libre"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/D3SOX/Better-Internet-Tiles-Libre"> <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/D3SOX/Better-Internet-Tiles-Libre">
-</a>
 
-<a href="https://github.com/D3SOX/Better-Internet-Tiles-Libre/releases"><img alt="Get it on GitHub" src="https://github.com/D3SOX/Better-Internet-Tiles-Libre/assets/24937357/c3c0042b-e4c2-465f-8f1b-f0b7a943fb67" height=60px /></a>
+<a href="https://github.com/D3SOX/Better-Network-Tiles-Libre/releases"><img alt="Get it on GitHub" src="https://github.com/D3SOX/Better-Network-Tiles-Libre/assets/24937357/c3c0042b-e4c2-465f-8f1b-f0b7a943fb67" height=60px /></a>
 
 You can use something like Obtainium to get updates
 
@@ -29,11 +28,11 @@ Shell access is required to enable/disable Wi-Fi and mobile data, as well as for
 - Ability to configure access to the tiles while the phone is locked
 
 ## How to install
-- Download and install the app using the 'app-release.apk' file from the the [latest release in the GitHub repository](https://github.com/D3SOX/Better-Internet-Tiles-Libre/releases).
+- Download and install the app using the 'app-release.apk' file from the the [latest release in the GitHub repository](https://github.com/D3SOX/Better-Network-Tiles-Libre/releases).
 - Open the app, and click on the 'Request Shizuku access' or 'Request root access' button, depending on which method of Shell access you prefer.
 - Only if you are using Shizuku:
   - You must start the Shizuku server each time the device is booted. Follow the instructions in the Shizuku application.
-  - There is a persistent notification to allow a foreground service to start, so Shizuku can detect the process without having to manually open the 'Better Internet Tiles' application. You can just hide this notification without any issue.
+  - There is a persistent notification to allow a foreground service to start, so Shizuku can detect the process without having to manually open the 'Better Network Tiles' application. You can just hide this notification without any issue.
 - Edit your quicksettings layout, drag your desired tile to the top and remove the original internet tile.
 If you are on Android 13 or higher, you can also add them using the shortcut buttons within the app.
 - Enjoy easier switching between mobile data and WiFi with just a single tap!

@@ -41,7 +41,7 @@ fun InfoPage() {
             },
             title = stringResource(R.string.feedback_title)
         ) {
-            uriHandler.openUri("https://github.com/D3SOX/Better-Internet-Tiles-Libre/issues")
+            uriHandler.openUri("https://github.com/D3SOX/Better-Network-Tiles-Libre/issues")
         }
 
         PreferenceEntry(
@@ -50,7 +50,7 @@ fun InfoPage() {
             },
             title = stringResource(R.string.github_title)
         ) {
-            uriHandler.openUri("https://github.com/D3SOX/Better-Internet-Tiles-Libre")
+            uriHandler.openUri("https://github.com/D3SOX/Better-Network-Tiles-Libre")
         }
 
         PreferenceEntry(

@@ -45,8 +45,8 @@
     <string name="bluetooth_connect_description">Do odczytania nazwy podłączonego urządzenia Bluetooth wymagane jest uprawnienie „połączenie Bluetooth”.</string>
     <string name="allow_shizuku_access">Zezwól Shizuku na dostęp</string>
     <string name="allow_root_access">Zezwól na dostęp do roota</string>
-    <string name="allow_root_access_description">Zezwól na dostęp administratora aplikacji „Better Internet Tiles” w aplikacji do zarządzania uprawnieniami administratora (np. Magisk Manager)</string>
-    <string name="allow_shizuku_access_description">Upewnij się, że „Better Internet Tiles” mają dostęp do aplikacji Shizuku i że proces Shizuku jest uruchomiony</string>
+    <string name="allow_root_access_description">Zezwól na dostęp administratora aplikacji „Better Network Tiles” w aplikacji do zarządzania uprawnieniami administratora (np. Magisk Manager)</string>
+    <string name="allow_shizuku_access_description">Upewnij się, że „Better Network Tiles” mają dostęp do aplikacji Shizuku i że proces Shizuku jest uruchomiony</string>
     <string name="auto_start_shizuku_description">Czy wiesz, że możesz automatycznie uruchomić Shizuku po uruchomieniu urządzenia, bez konieczności rootowania\? Sprawdź $$this reddit thread$$, aby uzyskać więcej informacji o tym, jak to skonfigurować.</string>
     <string name="location_description">Do odczytania nazwy aktualnie podłączonej sieci Wi-Fi wymagane jest uprawnienie „dokładna lokalizacja”.</string>
     <string name="tile_already_added">Kafelek został już dodany</string>

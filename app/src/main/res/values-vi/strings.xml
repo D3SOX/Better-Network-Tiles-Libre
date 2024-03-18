@@ -50,12 +50,12 @@
     <string name="bluetooth_connect">Kết nối bluetooth</string>
     <string name="bluetooth_connect_description">Cần có quyền \'Kết nối bluetooth\' để đọc tên thiết bị đã được kết nối bluetooth.</string>
     <string name="allow_root_access">Cho phép truy cập root</string>
-    <string name="allow_root_access_description">Hãy cho phép quyền truy cập root cho ứng dụng \'Better Internet Tiles\' trong ứng dụng quản lý quyền root của bạn (VD: Magisk Manager)</string>
+    <string name="allow_root_access_description">Hãy cho phép quyền truy cập root cho ứng dụng \'Better Network Tiles\' trong ứng dụng quản lý quyền root của bạn (VD: Magisk Manager)</string>
     <string name="allow_shizuku_access">Cho phép truy cập Shizuku</string>
     <string name="sim_not_available">SIM không khả dụng</string>
     <string name="battery_level">Pin</string>
     <string name="connecting">Đang kết nối…</string>
-    <string name="allow_shizuku_access_description">Hãy đảm bảo rằng \'Better Internet Tiles\' được cấp quyền truy cập vào Shizuku và tiến trình Shizuku đang chạy</string>
+    <string name="allow_shizuku_access_description">Hãy đảm bảo rằng \'Better Network Tiles\' được cấp quyền truy cập vào Shizuku và tiến trình Shizuku đang chạy</string>
     <string name="shizuku_description">Shizuku cho phép các ứng dụng bình thường sử dụng API hệ thống với các dặc quyền nâng cao bằng cách sử dụng ADB trên những thiết bị chưa được root</string>
     <string name="root_description">Cách đơn giản nhất để truy xuất shell-level khi thiết bị của bạn đã được root</string>
     <string name="github_title">GitHub repository</string>

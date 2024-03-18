@@ -8,7 +8,7 @@ android {
     buildToolsVersion "33.0.0"
 
     defaultConfig {
-        applicationId "be.casperverswijvelt.unifiedinternetqs.libre"
+        applicationId "me.d3sox.betternetworktiles.libre"
         minSdkVersion 29
         targetSdkVersion 33
         versionCode 3000002

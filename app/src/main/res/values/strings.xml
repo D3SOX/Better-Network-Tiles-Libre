@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Better Internet Tiles</string>
+    <string name="app_name" translatable="false">Better Network Tiles</string>
     <string name="wifi">Wi-Fi</string>
     <string name="mobile_data">Mobile data</string>
     <string name="nfc">NFC</string>
@@ -67,9 +67,9 @@
         <item quantity="other">Used for %1$s tiles</item>
     </plurals>
     <string name="allow_root_access">Allow root access</string>
-    <string name="allow_root_access_description">Please allow root access for the \'Better Internet Tiles\' application in your root management application (e.g. Magisk Manager)</string>
+    <string name="allow_root_access_description">Please allow root access for the \'Better Network Tiles\' application in your root management application (e.g. Magisk Manager)</string>
     <string name="allow_shizuku_access">Allow Shizuku access</string>
-    <string name="allow_shizuku_access_description">Please make sure that the \'Better Internet Tiles\' is granted access to the Shizuku application and that the Shizuku process is running</string>
+    <string name="allow_shizuku_access_description">Please make sure that the \'Better Network Tiles\' is granted access to the Shizuku application and that the Shizuku process is running</string>
     <string name="auto_start_shizuku_description">Did you know you can automatically start Shizuku when your device boots up, no root required? Check out $$this reddit thread$$ for more information on how to set this up.</string>
     <string name="sim_not_available">SIM not available</string>
     <string name="battery_level">battery</string>
