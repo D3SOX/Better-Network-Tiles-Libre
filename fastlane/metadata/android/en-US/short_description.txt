@@ -1,1 +1,1 @@
-Bring back Wi-Fi and mobile data tiles on Android 12 or higher
+Bring back Wi-Fi, mobile data and adds even more useful tiles on Android 12 or higher
