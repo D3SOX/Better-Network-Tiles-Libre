@@ -2,7 +2,7 @@
 
 This is a fork of the original Better Internet Tiles by [casperverswijvelt](https://github./comcasperverswijvelt) to remove every non-libre component and analytics
 
-<img alt="GitHub" src="https://img.shields.io/github/license/D3SOX/Better-Internet-Tiles-Libre"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/D3SOX/Better-Internet-Tiles-Libre"> <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/D3SOX/Better-Internet-Tiles-Libre">
+<img alt="GitHub" src="https://img.shields.io/github/license/D3SOX/Better-Network-Tiles-Libre"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/D3SOX/Better-Internet-Tiles-Libre"> <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/D3SOX/Better-Internet-Tiles-Libre">
 
 <a href="https://github.com/D3SOX/Better-Network-Tiles-Libre/releases"><img alt="Get it on GitHub" src="https://github.com/D3SOX/Better-Network-Tiles-Libre/assets/24937357/c3c0042b-e4c2-465f-8f1b-f0b7a943fb67" height=60px /></a>
 
