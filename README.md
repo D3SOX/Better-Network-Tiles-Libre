@@ -5,7 +5,7 @@ This is a fork of the original Better Inter Tiles by @casperverswijvelt to remov
 <img alt="GitHub" src="https://img.shields.io/github/license/D3SOX/Better-Internet-Tiles-Libre"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/D3SOX/Better-Internet-Tiles-Libre"> <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/D3SOX/Better-Internet-Tiles-Libre">
 </a>
 
-<a href="https://play.google.com/store/apps/details?id=be.casperverswijvelt.unifiedinternetqs"><img alt="Get it on GitHub" src="https://github.com/D3SOX/Better-Internet-Tiles-Libre/releases" height=60px /></a></a>
+<a href="https://img.shields.io/github/v/release/D3SOX/Better-Internet-Tiles-Libre/releases"><img alt="Get it on GitHub" src="https://github.com/D3SOX/Better-Internet-Tiles-Libre/releases" height=60px /></a></a>
 
 You can use something like Obtainium to get updates
 
