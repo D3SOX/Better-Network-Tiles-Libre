@@ -1,29 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="nfc">NFC</string>
+    <string name="app_name" translatable="false">Better Network Tiles</string>
     <string name="wifi">WLAN</string>
     <string name="mobile_data">Mobile Daten</string>
-    <string name="not_connected">Nicht verbunden</string>
-    <string name="require_unlock_title">Auf dem Sperrbildschirm deaktivieren</string>
+    <string name="nfc">NFC</string>
+    <string name="on">An</string>
     <string name="off">Aus</string>
     <string name="turning_on">Wird aktiviert…</string>
-    <string name="restart_app_summary">Versuche zuerst die App neu zu starten, falls etwas nicht funktioniert.</string>
+    <string name="not_connected">Nicht verbunden</string>
+    <string name="require_unlock_title">Auf dem Sperrbildschirm deaktivieren</string>
+    <string name="require_unlock_summary">Verhindere Aktionen auf dem Sperrbildschirm</string>
     <string name="restart_app_title">App neustarten</string>
+    <string name="restart_app_summary">Versuche zuerst die App neu zu starten, falls etwas nicht funktioniert.</string>
     <string name="feedback_title">Feedback / einen Fehler melden</string>
     <string name="github_title">GitHub Repository</string>
-    <string name="xda_title">XDA Developers Thread</string>
     <string name="settings">Einstellungen</string>
     <string name="about">Über diese App</string>
-    <string name="language">Sprache</string>
-    <string name="help_translate">Hilf mit diese App zu übersetzen!</string>
-    <string name="airplane_mode">Flugmodus</string>
-    <string name="no_service">Kein Dienst</string>
-    <string name="network_not_available">Netzwerk nicht verfügbar</string>
-    <string name="internet">Internet</string>
-    <string name="tile_added_error">Die Schnelleinstellungstaste konnte nicht hinzugefügt werden</string>
-    <string name="toast_foreground_service_error">Der \"foreground-service\" konnte nicht gestartet werden. Melde diesen Fehler bitte dem Entwickler.</string>
-    <string name="hide_service_description">Diese Benachrichtigung sorgt dafür dass diese App mit Shizuku im Hintergrund läuft und nicht vom System beendet wird. Du kannst diese Benachrichtigung verstecken.</string>
-    <string name="hide_service_title">Versteck\' mich!</string>
+    <string name="shell_access_not_set_up">Entweder Root or Shizuku Zugriff wird für diese Schnelleinstellungstaste benötigt</string>
     <string name="shell_access_required">Diese App benötigt Shell-Zugriff</string>
-    <string name="on">An</string>
+    <string name="hide_service_title">Verstecke mich!</string>
+    <string name="hide_service_description">Diese Benachrichtigung sorgt dafür dass diese App mit Shizuku im Hintergrund läuft und nicht vom System beendet wird. Du kannst sie mit einem langen Druck darauf verstecken.</string>
+    <string name="toast_foreground_service_error">Konnte den \"foreground-service\" nicht starten. Melde diesen Fehler bitte dem Entwickler.</string>
+    <string name="tile_added_error">Die Schnelleinstellungstaste konnte nicht hinzugefügt werden</string>
+    <string name="tile_added">Schnelleinstellungstaste hinzugefügt</string>
+    <string name="tile_already_added">Schnelleinstellungstaste ist bereits hinzugefügt</string>
+    <string name="internet">Internet</string>
+    <string name="network_not_available">Netzwerk nicht verfügbar</string>
+    <string name="no_service">Kein Dienst</string>
+    <string name="airplane_mode">Flugmodus</string>
+    <string name="language">Sprache</string>
+    <string name="available_tiles">Verfügbare Schnelleinstellungstasten</string>
+    <string name="shell_method">Shell-Methode</string>
+    <string name="home">Startseite</string>
+    <string name="app_info">App Info</string>
+    <string name="version">Version</string>
+    <string name="shizuku" translatable="false">Shizuku</string>
+    <string name="shizuku_description">Shizuku erlaubt Apps erhöhte Berechtigungen auf Systemprozesse mit ADB auf Geräten ohne Root-Zugriff</string>
+    <string name="root" translatable="false">Root</string>
+    <string name="root_description">Der einfachste Weg Shell-Zugriff zu gewähren wenn dein Gerät gerootet ist</string>
+    <string name="auto">Auto</string>
+    <string name="ok">Ok</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="use_default">Standard benutzen</string>
+    <string name="bluetooth" translatable="false">Bluetooth</string>
+
+    <string name="good_to_go">Alles in Ordnung!</string>
+    <string name="good_to_go_description">Alle benötigten Berechtigungen wurden gewährt, siehe unten für die verfügbaren Schnelleinstellungstasten!</string>
+
+    <string name="missing_permissions">Fehlende Berechtigungen</string>
+    <string name="missing_permissions_description">Einiges wird aktuell nicht wie erwartet fuktionieren. Ausklappen für mehr Infos.</string>
+    <string name="shell_access">Shell-Zugriff</string>
+    <string name="shell_access_description">Shell-Zugriff wird benötigt um Systemfunktionen zu aktivieren/deaktivieren. Do kannst dafür entweder Root oder Shizuku verwenden.</string>
+    <string name="location">Standort</string>
+    <string name="location_description">Die \'exakter Standort\' Berechtigung wird benötigt, um den Namen des aktuell verbundenen WLAN-Netzwerks auszulesen.</string>
+    <string name="read_phone_state">Telefon</string>
+    <string name="read_phone_state_description">Die \'Telefon\' Berechtigung wird benötigt, um die mobile Daten Informationen zu lesen.</string>
+    <string name="bluetooth_connect">Geräte in der Nähe</string>
+    <string name="bluetooth_connect_description" >Die \'Geräte in der Nähe\' Berechtigung wird benötigt, um den Namen des aktuell verbundenen Bluetooth-Geräts auszulesen.</string>
+    <plurals name="used_for_tiles">
+        <item quantity="one">Benutzt für %1$s Schnelleinstellungstaste</item>
+        <item quantity="other">Benutzt für %1$s Schnelleinstellungstasten</item>
+    </plurals>
+    <string name="allow_root_access">Root-Zugriff gewähren</string>
+    <string name="allow_root_access_description">Bitte erlaube Root-Zugriff für die \'Better Network Tiles\' App in deiner Root-Verwaltungs-App (zum Beispiel Magisk Manager)</string>
+    <string name="allow_shizuku_access">Shizuku Zugriff gewähren</string>
+    <string name="allow_shizuku_access_description">Bitte stelle sicher, dass die \'Better Network Tiles\' app zugriff auf die Shizuku App hat und der Shizuku Prozess läuft</string>
+    <string name="auto_start_shizuku_description">Wusstest du, dass du Shizuku automatisch beim hochfahren starten lassen kannst ohne Root-Zugriff? Sieh dir für weitere Informationen wie man das aufsetzt $$diesen Reddit-Thread$$ an.</string>
+    <string name="sim_not_available">SIM nicht verfügbar</string>
+    <string name="battery_level">Batterie</string>
+    <string name="connecting">"Verbinde…"</string>
 </resources>

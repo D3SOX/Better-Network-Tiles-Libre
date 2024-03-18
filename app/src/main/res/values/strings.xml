@@ -13,13 +13,12 @@
     <string name="restart_app_summary">Try restarting the app if something seems wrong.</string>
     <string name="feedback_title">Feedback/report a bug</string>
     <string name="github_title">GitHub repository</string>
-    <string name="xda_title">XDA Developers thread</string>
     <string name="settings">Settings</string>
     <string name="about">About</string>
     <string name="shell_access_not_set_up">Either root or Shizuku is needed to toggle this tile</string>
     <string name="shell_access_required">Shell access required</string>
     <string name="hide_service_title">Hide me!</string>
-    <string name="hide_service_description">This notification ensures the tiles work correctly with Shizuku. Feel free to hide it.</string>
+    <string name="hide_service_description">This notification ensures the tiles work correctly with Shizuku. You can long press it to hide it.</string>
     <string name="toast_foreground_service_error">"Could not start foreground service. Please contact the developer."</string>
     <string name="tile_added_error">Could not add the tile</string>
     <string name="tile_added">Tile added</string>
@@ -29,7 +28,6 @@
     <string name="no_service">No service</string>
     <string name="airplane_mode">Airplane mode</string>
     <string name="weblate" translatable="false">Weblate</string>
-    <string name="help_translate">Help translate this app!</string>
     <string name="language">Language</string>
     <string name="available_tiles">Available tiles</string>
     <string name="shell_method">Shell method</string>
@@ -46,8 +44,6 @@
     <string name="no">No</string>
     <string name="use_default">Use default</string>
     <string name="bluetooth" translatable="false">Bluetooth</string>
-    <string name="donate">Donate</string>
-    <string name="donate_summarry">Show your support via a donation</string>
 
     <string name="good_to_go">Good to go!</string>
     <string name="good_to_go_description">All needed permissions are granted, check out the available tiles below!</string>
@@ -57,11 +53,11 @@
     <string name="shell_access">Shell access</string>
     <string name="shell_access_description">Shell access is needed to enable/disable certain system features. You can use either root or Shizuku to do this.</string>
     <string name="location">Location</string>
-    <string name="location_description">The \'exact location\' permission is required to read out the name of the current connected Wi-Fi network.</string>
-    <string name="read_phone_state">Read phone state</string>
-    <string name="read_phone_state_description">The \'read phone state\' permission is required to read the mobile data connection info.</string>
-    <string name="bluetooth_connect">Bluetooth connect</string>
-    <string name="bluetooth_connect_description" >The \'bluetooth connect\' permission is required to read out the connected bluetooth device name.</string>
+    <string name="location_description">The \'Precise location\' permission is required to read out the name of the current connected Wi-Fi network.</string>
+    <string name="read_phone_state">Phone</string>
+    <string name="read_phone_state_description">The \'Phone\' permission is required to read the mobile data connection info.</string>
+    <string name="bluetooth_connect">Nearby devices</string>
+    <string name="bluetooth_connect_description" >The \'Nearby devices\' permission is required to read out the connected bluetooth device name.</string>
     <plurals name="used_for_tiles">
         <item quantity="one">Used for %1$s tile</item>
         <item quantity="other">Used for %1$s tiles</item>
