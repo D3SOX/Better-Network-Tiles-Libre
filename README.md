@@ -1,6 +1,6 @@
 # Better Network Tiles Libre
 
-This is a fork of the original Better Internet Tiles by [casperverswijvelt](https://github./comcasperverswijvelt) to remove every non-libre component and analytics
+This is a fork of the original Better Internet Tiles by [casperverswijvelt](https://github./comcasperverswijvelt) to remove every non-libre component and analytics and merge some fixes
 
 <img alt="GitHub" src="https://img.shields.io/github/license/D3SOX/Better-Network-Tiles-Libre"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/D3SOX/Better-Internet-Tiles-Libre"> <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/D3SOX/Better-Internet-Tiles-Libre">
 
