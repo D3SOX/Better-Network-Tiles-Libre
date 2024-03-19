@@ -61,7 +61,6 @@ fun PermissionVisualizer (
     navController: NavController
 ) {
     val context = LocalContext.current
-    val preferences = BITPreferences(context)
 
     val errorBgColor = MaterialTheme.colorScheme.errorContainer
     val errorContentColor = MaterialTheme.colorScheme.onErrorContainer
@@ -94,6 +93,7 @@ fun PermissionVisualizer (
                 Manifest.permission.POST_NOTIFICATIONS
             ) == PackageManager.PERMISSION_DENIED
         ) {
+            val preferences = BITPreferences(context)
             val shellMethod = runBlocking {
                 preferences.getShellMethod.first()
             }
