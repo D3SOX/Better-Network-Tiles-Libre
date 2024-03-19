@@ -1,0 +1,2 @@
+New
+- Ask for notifications permissions on Android 13+

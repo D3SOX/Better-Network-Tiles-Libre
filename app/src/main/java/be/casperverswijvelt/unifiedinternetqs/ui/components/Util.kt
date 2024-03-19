@@ -235,6 +235,10 @@ sealed class PermissionInfo (
             R.string.bluetooth,
         )
     )
+    object Notification: PermissionInfo(
+        R.string.notification,
+        R.string.notification_description
+    )
     object Location: PermissionInfo(
         R.string.location,
         R.string.location_description,

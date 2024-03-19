@@ -58,6 +58,8 @@
     <string name="read_phone_state_description">The \'Phone\' permission is required to read the mobile data connection info.</string>
     <string name="bluetooth_connect">Nearby devices</string>
     <string name="bluetooth_connect_description" >The \'Nearby devices\' permission is required to read out the connected bluetooth device name.</string>
+    <string name="notification">Notifications</string>
+    <string name="notification_description">The \'Notifications\' permission is required to show a warning when Shizuku is not available.</string>
     <plurals name="used_for_tiles">
         <item quantity="one">Used for %1$s tile</item>
         <item quantity="other">Used for %1$s tiles</item>

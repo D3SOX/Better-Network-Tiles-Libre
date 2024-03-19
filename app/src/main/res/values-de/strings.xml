@@ -58,6 +58,8 @@
     <string name="read_phone_state_description">Die \'Telefon\' Berechtigung wird benötigt, um die mobile Daten Informationen zu lesen.</string>
     <string name="bluetooth_connect">Geräte in der Nähe</string>
     <string name="bluetooth_connect_description" >Die \'Geräte in der Nähe\' Berechtigung wird benötigt, um den Namen des aktuell verbundenen Bluetooth-Geräts auszulesen.</string>
+    <string name="notification">Benachrichtigungen</string>
+    <string name="notification_description">Die \'Benachrichtigungen\' Berechtigung wird benötigt, um eine Warnung anzuzeigen, wenn Shizuku nicht verfügbar ist.</string>
     <plurals name="used_for_tiles">
         <item quantity="one">Benutzt für %1$s Schnelleinstellungstaste</item>
         <item quantity="other">Benutzt für %1$s Schnelleinstellungstasten</item>
