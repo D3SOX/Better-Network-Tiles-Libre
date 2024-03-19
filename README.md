@@ -16,7 +16,7 @@ It adds an alternative unified internet tile. Next to this, **separate Wi-Fi and
 
 And just in case your ROM doesn't support it there are tiles for NFC, Airplane mode and Bluetooth too.
 
-Tapping the new alternative internet tile will simply toggle between Wi-Fi and mobile data. This reduces the amount of taps needed from 3 (tap tile, disable wifi, enable data) to just 1 quick tap. In situations where you still want more control, long pressing the tile will redirect you to the relevant settings page.
+Tapping the new alternative internet tile will simply toggle between Wi-Fi and mobile data. This reduces the amount of taps needed from 3 (tap tile, disable Wi-Fi, enable mobile data) to just 1 quick tap. In situations where you still want more control, long pressing the tile will redirect you to the relevant settings page.
 
 **This has been tested and confirmed working on Pixel devices running Android 12, 13 and 14, but other devices will probably work too.**
 
@@ -37,9 +37,9 @@ Shell access is required to enable/disable Wi-Fi and mobile data, as well as for
 - Only if you are using Shizuku:
   - You must start the Shizuku server each time the device is booted. Follow the instructions in the Shizuku application.
   - There is a persistent notification to allow a foreground service to start, so Shizuku can detect the process without having to manually open the 'Better Network Tiles' application. You can just hide this notification without any issue.
-- Edit your quicksettings layout, drag your desired tile to the top and remove the original internet tile.
+- Edit your quick settings layout, drag your desired tile to the top and remove the original internet tile.
 If you are on Android 13 or higher, you can also add them using the shortcut buttons within the app.
-- Enjoy easier switching between mobile data and WiFi with just a single tap!
+- Enjoy using the new tiles!
 
 ## Contribute
 Feel free to check out the source code and create an issue or pull request if you want to see more features added.
