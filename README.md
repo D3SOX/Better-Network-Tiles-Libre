@@ -9,6 +9,13 @@ This is a fork of the original Better Internet Tiles by [casperverswijvelt](http
 
 You can use something like [Obtainium](https://github.com/ImranR98/Obtainium) to get updates
 
+## Screenshots
+
+<p style="text-align: center;">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="250" alt="Home"/>
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" width="250" alt="Settings"/>
+</p>
+
 ## About
 
 This application aims to improve various network related quick-settings tiles.
