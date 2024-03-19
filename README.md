@@ -6,7 +6,7 @@ This is a fork of the original Better Internet Tiles by [casperverswijvelt](http
 
 <a href="https://github.com/D3SOX/Better-Network-Tiles-Libre/releases"><img alt="Get it on GitHub" src="https://github.com/D3SOX/Better-Network-Tiles-Libre/assets/24937357/c3c0042b-e4c2-465f-8f1b-f0b7a943fb67" height=60px /></a>
 
-You can use something like Obtainium to get updates
+You can use something like [Obtainium](https://github.com/ImranR98/Obtainium) to get updates
 
 ## About
 
