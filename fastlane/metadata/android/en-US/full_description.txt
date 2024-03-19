@@ -2,10 +2,10 @@ NOTE: This app requires shell access, which can be granted using either Shizuku 
 
 This application aims to improve various network related quick-settings tiles.
 
-It adds an alternative unified internet tile. Next to this, separate Wi-Fi and mobile data tiles are also available if you just want to go back to the behaviour of Android 11 or lower.
+It adds an alternative unified internet tile. Next to this, separate Wi-Fi and mobile data tiles are also available if you just want to go back to the behavior of Android 11 or lower.
 
 And just in case your ROM doesn't support it there are tiles for NFC, Airplane mode and Bluetooth too.
 
-Tapping the new alternative internet tile will simply toggle between Wi-Fi and mobile data. This reduces the amount of taps needed from 3 (tap tile, disable wifi, enable data) to just 1 quick tap. In situations where you still want more control, long pressing the tile will redirect you to the relevant settings page.
+Tapping the new alternative internet tile will simply toggle between Wi-Fi and mobile data. This reduces the amount of taps needed from 3 (tap tile, disable Wi-Fi, enable data) to just 1 quick tap. In situations where you still want more control, long pressing the tile will redirect you to the relevant settings page.
 
 This has been tested and confirmed working on Pixel devices running Android 12, 13 and 14, but other devices will probably work too.
