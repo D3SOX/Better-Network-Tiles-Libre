@@ -10,7 +10,7 @@ android {
         targetSdkVersion 33
         compileSdk 33
         versionCode 3000002
-        versionName "3.0.1"
+        versionName "3.0.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
