@@ -1,2 +1,0 @@
-Improvements and fixes
-- Fixed Analytics being reported multiple times on app startup, avoiding the 12 hour cooldown

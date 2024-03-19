@@ -1,3 +1,0 @@
-New
-- Added Russian and Turkish translations
-- Added link to weblate, our translations platform

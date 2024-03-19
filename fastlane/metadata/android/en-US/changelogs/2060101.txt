@@ -1,5 +1,0 @@
-New
-- Added support for German, Italian and Polish languages
-
-Improvements
-- Updated some russian translations

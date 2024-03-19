@@ -1,3 +1,0 @@
-New
-- Added support for Spanish, French and Chinese languages
-- Report Shell Access method (root / shizuku) to analytics
