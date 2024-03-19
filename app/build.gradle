@@ -17,6 +17,12 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    // Disables dependency metadata
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
+    }
+
     buildTypes {
         release {
             minifyEnabled true
