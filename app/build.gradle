@@ -4,12 +4,11 @@ plugins {
 }
 
 android {
-    compileSdkVersion 33
-
     defaultConfig {
         applicationId "me.d3sox.betternetworktiles.libre"
         minSdkVersion 29
         targetSdkVersion 33
+        compileSdk 33
         versionCode 3000002
         versionName "3.0.1"
 
