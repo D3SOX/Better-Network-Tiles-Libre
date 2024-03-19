@@ -50,7 +50,6 @@ import androidx.navigation.NavController
 import be.casperverswijvelt.unifiedinternetqs.R
 import be.casperverswijvelt.unifiedinternetqs.data.BITPreferences
 import be.casperverswijvelt.unifiedinternetqs.data.ShellMethod
-import be.casperverswijvelt.unifiedinternetqs.util.ShizukuUtil
 import be.casperverswijvelt.unifiedinternetqs.util.hasShellAccess
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
