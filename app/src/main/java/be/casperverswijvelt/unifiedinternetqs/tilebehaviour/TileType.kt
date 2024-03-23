@@ -6,5 +6,6 @@ enum class TileType(val value: Int) {
     Internet(3),
     AirplaneMode(4),
     NFC(5),
-    Bluetooth(6)
+    Bluetooth(6),
+    PrivateDns(7)
 }

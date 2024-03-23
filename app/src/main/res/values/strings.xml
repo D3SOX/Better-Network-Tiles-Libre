@@ -24,6 +24,7 @@
     <string name="tile_added">Tile added</string>
     <string name="tile_already_added">Tile already added</string>
     <string name="internet">Internet</string>
+    <string name="private_dns">Private DNS</string>
     <string name="network_not_available">Network not available</string>
     <string name="no_service">No service</string>
     <string name="airplane_mode">Airplane mode</string>
