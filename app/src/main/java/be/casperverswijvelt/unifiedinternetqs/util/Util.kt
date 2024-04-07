@@ -79,7 +79,9 @@ fun getAirplaneModeEnabled(context: Context): Boolean {
         0
     ) != 0
 }
-
+fun getPrivateDnsMode(context: Context): String? {
+    return Settings.Global.getString(context.contentResolver, "private_dns_mode")
+}
 fun getConnectedWifiSSID(context: Context): String? {
     val ssid = (context.getSystemService(Context.WIFI_SERVICE) as? WifiManager)?.connectionInfo?.ssid
     if (ssid == null || ssid == WifiManager.UNKNOWN_SSID) return null

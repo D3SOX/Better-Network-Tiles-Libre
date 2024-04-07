@@ -25,6 +25,7 @@
     <string name="tile_added">Schnelleinstellungstaste hinzugefügt</string>
     <string name="tile_already_added">Schnelleinstellungstaste ist bereits hinzugefügt</string>
     <string name="internet">Internet</string>
+    <string name="private_dns">Privates DNS</string>
     <string name="network_not_available">Netzwerk nicht verfügbar</string>
     <string name="no_service">Kein Dienst</string>
     <string name="airplane_mode">Flugmodus</string>

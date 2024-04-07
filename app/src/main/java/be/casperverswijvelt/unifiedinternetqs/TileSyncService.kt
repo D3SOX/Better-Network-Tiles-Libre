@@ -28,6 +28,7 @@ import be.casperverswijvelt.unifiedinternetqs.tilebehaviour.BluetoothTileBehavio
 import be.casperverswijvelt.unifiedinternetqs.tilebehaviour.InternetTileBehaviour
 import be.casperverswijvelt.unifiedinternetqs.tilebehaviour.MobileDataTileBehaviour
 import be.casperverswijvelt.unifiedinternetqs.tilebehaviour.NFCTileBehaviour
+import be.casperverswijvelt.unifiedinternetqs.tilebehaviour.PrivateDnsTileBehaviour
 import be.casperverswijvelt.unifiedinternetqs.tilebehaviour.TileBehaviour
 import be.casperverswijvelt.unifiedinternetqs.tilebehaviour.WifiTileBehaviour
 import be.casperverswijvelt.unifiedinternetqs.tiles.AirplaneModeTileService
@@ -35,6 +36,7 @@ import be.casperverswijvelt.unifiedinternetqs.tiles.BluetoothTileService
 import be.casperverswijvelt.unifiedinternetqs.tiles.InternetTileService
 import be.casperverswijvelt.unifiedinternetqs.tiles.MobileDataTileService
 import be.casperverswijvelt.unifiedinternetqs.tiles.NFCTileService
+import be.casperverswijvelt.unifiedinternetqs.tiles.PrivateDnsTileService
 import be.casperverswijvelt.unifiedinternetqs.tiles.WifiTileService
 import be.casperverswijvelt.unifiedinternetqs.ui.MainActivity
 import be.casperverswijvelt.unifiedinternetqs.util.getConnectedWifiSSID
@@ -58,6 +60,9 @@ class TileSyncService: Service() {
 
         var isTurningOnWifi = false
         var isTurningOffWifi = false
+
+        var isTurningOnPrivateDns = false
+        var isTurningOffPrivateDns = false
 
         var isTurningOnNFC = false
         var isTurningOffNFC = false
@@ -229,6 +234,7 @@ class TileSyncService: Service() {
         updateWifiTile()
         updateMobileDataTile()
         updateInternetTile()
+        updatePrivateDnsTile()
         updateNFCTile()
     }
 
@@ -253,9 +259,14 @@ class TileSyncService: Service() {
         requestTileBehaviourUpdate(MobileDataTileBehaviour::class.java)
     }
 
-    private fun updateInternetTile () {
+    private fun updateInternetTile() {
         requestListeningState(InternetTileService::class.java)
         requestTileBehaviourUpdate(InternetTileBehaviour::class.java)
+    }
+
+    private fun updatePrivateDnsTile() {
+        requestListeningState(PrivateDnsTileService::class.java)
+        requestTileBehaviourUpdate(PrivateDnsTileBehaviour::class.java)
     }
 
     private fun updateNFCTile() {

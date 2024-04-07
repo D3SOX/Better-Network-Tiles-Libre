@@ -39,6 +39,7 @@ import be.casperverswijvelt.unifiedinternetqs.tilebehaviour.BluetoothTileBehavio
 import be.casperverswijvelt.unifiedinternetqs.tilebehaviour.InternetTileBehaviour
 import be.casperverswijvelt.unifiedinternetqs.tilebehaviour.MobileDataTileBehaviour
 import be.casperverswijvelt.unifiedinternetqs.tilebehaviour.NFCTileBehaviour
+import be.casperverswijvelt.unifiedinternetqs.tilebehaviour.PrivateDnsTileBehaviour
 import be.casperverswijvelt.unifiedinternetqs.tilebehaviour.TileBehaviour
 import be.casperverswijvelt.unifiedinternetqs.tilebehaviour.WifiTileBehaviour
 import be.casperverswijvelt.unifiedinternetqs.ui.components.NavRoute
@@ -135,6 +136,10 @@ fun App() {
                 showDialog = showDialog
             ),
             BluetoothTileBehaviour(
+                context = context,
+                showDialog = showDialog
+            ),
+            PrivateDnsTileBehaviour(
                 context = context,
                 showDialog = showDialog
             )
