@@ -1,5 +1,10 @@
 # Better Network Tiles Libre
 
+> [!WARNING]  
+> I created this fork because on a CalyxOS update the tiles were gone. They have since fixed this hence I no longer need this app.  
+> The current version should work but I won't be updating it any further. Therefore I'm gonna archive this repo.  
+> Feel free to fork and continue!
+
 This is a fork of the original Better Internet Tiles by [casperverswijvelt](https://github.com/casperverswijvelt) to remove every non-libre component and analytics and merge some fixes
 
 <img alt="GitHub" src="https://img.shields.io/github/license/D3SOX/Better-Network-Tiles-Libre"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/D3SOX/Better-Internet-Tiles-Libre"> <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/D3SOX/Better-Internet-Tiles-Libre">
